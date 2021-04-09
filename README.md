@@ -29,7 +29,7 @@ for (let i = 0; i < 10; i++) {<br />
     }<br />
 console.log(output);<br />
 
-<h2><break 키워드></h2><br />
+<h2><break 키워드></h2> <br />
 -예제 : 짝수를 찾으면 break 키워드로 반복문을 벗어남.<br />
 
 ## [3월 30일]
