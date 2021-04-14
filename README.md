@@ -1,4 +1,67 @@
 # 이혜빈[201840129]
+## [4월 13일]
+><h4>오늘 배운 내용 요약</h4> <br />
+<h2>익명함수</h2><br>
+-이름을 붙이지 않고 함수 생성<br>
+-함수를 호출하면 함수 내부의 코드 덩어리가 모두 실행<br>
+
+  let <함수(변수) 이름> = function () { };<br>
+ (let을 붙이는 이유 : 자료형으로 생각 하고 있어서)<br>
+ (변수에다가 function을 저장)<br>
+
+- let foo = function () {<br>
+    console.log("첫줄");<br>
+    console.log("둘째줄");<br>
+}<br>
+
+let bar = 135;<br>
+
+foo();<br>
+console.log(foo);<br>
+console.log(bar);<br>
+
+-생성 -> 호출 -> 함수자체 출력<br>
+
+<h2>*자바스크립트에서 함수는 ->자료형으로 본다.</h2><br>
+
+<h2>선언적 함수</h2><br>
+-이름을 붙여 함수를 생성.<br>
+-'console.log(함수)' 부분으로 '[Function: 함수]' 문자를 출력<br>
+
+- function foo () {<br>
+  console.log("첫줄");<br>
+  console.log("둘째줄");<br>
+}<br>
+
+foo()<br>
+console.log(foo);<br>
+
+<h2>화살표 함수[ECMAScript6]</h2><br>
+-() => {  }<br>
+-하나의 표현식을 리턴하는 함수를 만들 때는 중괄호 생략 가능<br>
+-익명 함수 예제를 화살표 함수로 바꾸기.<br>
+-함수 생성 -> 함수 호출<br>
+- 화살표 함수. ES6 문법.<br>
+let foo = () => {<br>
+   console.log("첫줄");<br>
+   console.log("둘째줄");<br>
+}<br>
+
+foo();<br>
+console.log(foo);<br>
+
+<h2>숫자 변환 함수</h2><br>
+parselnt() : 문자열을 정수로 변환.<br>
+parseFloat() : 문자열을 실수로 변환.<br>
+
+<h2>타이머 함수</h2><br>
+-특정 시간 후에 또는 특정 시간마다 어떤일을 할 때 사용<br>
+-시간은 밀리초로 지정, 1초를 나타내려면 1000(밀리초)을 입력.<br>
+-종료 : Ctrl + C<br>
+setTimeout(함수, 시간) : 특정 시간 후에 함수를 실행.<br>
+setintervall(함수, 시간) : 특정 시간마다 함수를 실행.<br>
+
+
 ## [4월 6일]
 ><h4>오늘 배운 내용 요약</h4> <br />
 
@@ -28,6 +91,7 @@ for (let i = 0; i < 10; i++) {<br />
         output += "\n";<br />
     }<br />
 console.log(output);<br />
+
 <h2><break 키워드></h2> <br>
 -예제 : 짝수를 찾으면 break 키워드로 반복문을 벗어남.<br />
 
