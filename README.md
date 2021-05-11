@@ -30,7 +30,7 @@ date.setDate(date.getDate() + 1);<br />
 
 console.log(date);<br />
 
-<h2><Array 객체의 기본 메소드></h2><br />
+<Array 객체의 기본 메소드><br />
 - 대부분 파괴적 메소드로 자기 자신을 변경.<br />
 - 예 : concat(), join(), pop()*, push()*, reverse()*, slice() ....등등<br />
 
