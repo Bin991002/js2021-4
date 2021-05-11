@@ -1,4 +1,85 @@
 # 이혜빈[201840129]
+## [5월 11일]
+><h4>오늘 배운 내용 요약</h4> <br />
+<Date 객체 생성 방법><br />
+new Date() : 현재 시간으로 Date 객체를 생성합니다.<br />
+new Date((유닉스타임)) : 유닉스 타임으로 Date 객체를 생성합니다.<br />
+new Date(<시간 문자열>) : 문자열로 Date 객체를 생성합니다.<br />
+new Date(<년>,<월-1>,<일>,<시간>,<분>,<초>,<밀리초>) :시간요소를 기반으로 Date 객체를 생성<br />
+
+-Month를 나타내는 '월'은 0부터 시작,<br />
+  0 -> 1월, 11 -> 12월<br />
+
+//7-5 Date 객체 생성<br />
+let dateA = new Date(1600000000000);<br />
+console.log(dateA);<br />
+
+<메소드 활용><br />
+Date 객체<br />
+ ->getOO() 형태 메소드, setOO() 형태 메소드 : FullYear, Month, Day, Hours~ 등 사용!<br />
+
+// 예제 7-6 시간 더하기<br />
+let date = new Date();<br />
+
+console.log(date);<br />
+
+date.setFullYear(date.getFullYear() + 1);<br />
+date.setMonth(date.getMonth() + 1);<br />
+date.setDate(date.getDate() + 1);<br />
+
+console.log(date);<br />
+
+<Array 객체의 기본 메소드><br />
+- 대부분 파괴적 메소드로 자기 자신을 변경.<br />
+- 예 : concat(), join(), pop()*, push()*, reverse()*, slice() ....등등<br />
+
+
+//예제 7-7<br />
+let now = new Date();<br />
+let before = new Date('December 9, 2020');<br />
+
+let interval = now.getTime() -before.getTime();<br />
+console.log(interval);<br />
+
+interval = Math.floor(interval / (1000*60*60*24));<br />
+console.log(interval);<br />
+
+
+<조금 더 나아가기><br />
+- 프로토타입에 메소드를 추가하면 해당 자료형 전체에 추가 가능<br />
+- String 생성자 함수의 prototype 속성에 contain () 메소드를 추가<br />
+
+//프로토타입에 메소드를 추가합니다.<br />
+String.prototype.contain = function (input) {<br />
+   return this.indexOf(input) >= 1;<br />
+};<br />
+
+//메소드를 활용합니다.<br />
+console.log('안녕하세요' .contain('안녕'));<br />
+console.log('안녕하세요'. .contain('데굴데굴'));<br />
+
+<JSON 객체><br />
+- 자바스크립트 객체를 사용한 데이터 표현 방법<br />
+[ <br />
+   {<br />
+        name: '고구마',<br />
+        price: 1000<br />
+    },<br />
+    {<br />
+        name: '감자',<br />
+        price: 500<br />
+    },<br />
+    {<br />
+        name: '바나나',<br />
+        price: 1500<br />
+    }<br />
+]<br />
+
+*제약사항 <br />
+1.문자열은 큰따옴표로 만듦.<br />
+2.모든 키는 큰따옴표로 감싸야 함<br />
+3.숫자, 문자열, 불 자료형만 사용 가능.<br />
+
 ## [5월 4일]
 ><h4>오늘 배운 내용 요약</h4> <br />
 1.자바스크립트는 다양한 객체를 제공<br />
