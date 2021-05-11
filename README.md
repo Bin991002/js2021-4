@@ -1,7 +1,7 @@
 # 이혜빈[201840129]
 ## [5월 11일]
 ><h4>오늘 배운 내용 요약</h4> <br />
-<Date 객체 생성 방법><br />
+<h2><Date 객체 생성 방법></h2><br />
 new Date() : 현재 시간으로 Date 객체를 생성합니다.<br />
 new Date((유닉스타임)) : 유닉스 타임으로 Date 객체를 생성합니다.<br />
 new Date(<시간 문자열>) : 문자열로 Date 객체를 생성합니다.<br />
@@ -14,7 +14,7 @@ new Date(<년>,<월-1>,<일>,<시간>,<분>,<초>,<밀리초>) :시간요소를 
 let dateA = new Date(1600000000000);<br />
 console.log(dateA);<br />
 
-<메소드 활용><br />
+<h2><메소드 활용></h2><br />
 Date 객체<br />
  ->getOO() 형태 메소드, setOO() 형태 메소드 : FullYear, Month, Day, Hours~ 등 사용!<br />
 
@@ -29,7 +29,7 @@ date.setDate(date.getDate() + 1);<br />
 
 console.log(date);<br />
 
-<Array 객체의 기본 메소드><br />
+<h2><Array 객체의 기본 메소드></h2><br />
 - 대부분 파괴적 메소드로 자기 자신을 변경.<br />
 - 예 : concat(), join(), pop()*, push()*, reverse()*, slice() ....등등<br />
 
@@ -45,7 +45,7 @@ interval = Math.floor(interval / (1000*60*60*24));<br />
 console.log(interval);<br />
 
 
-<조금 더 나아가기><br />
+<h2><조금 더 나아가기></h2><br />
 - 프로토타입에 메소드를 추가하면 해당 자료형 전체에 추가 가능<br />
 - String 생성자 함수의 prototype 속성에 contain () 메소드를 추가<br />
 
@@ -75,7 +75,7 @@ console.log('안녕하세요'. .contain('데굴데굴'));<br />
     }<br />
 ]<br />
 
-*제약사항 <br />
+<h2>*제약사항 </h2><br />
 1.문자열은 큰따옴표로 만듦.<br />
 2.모든 키는 큰따옴표로 감싸야 함<br />
 3.숫자, 문자열, 불 자료형만 사용 가능.<br />
