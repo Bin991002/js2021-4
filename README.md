@@ -1,65 +1,65 @@
 # 이혜빈[201840129]
 ## [5월 18일]
 ><h4>오늘 배운 내용 요약</h4> <br />
-<전역변수>
-1.전역 변수, 전역 함수, 전역 객체 : 모든 곳에서 사용할 수 있는 것들
--__filename : 현재 실행 중인 코드의 파일 경로를 나타냅니다.
--__dirname : 현재 실행 중인 코드의 폴더 경로를 나타냅니다.
+<전역변수><br />
+1.전역 변수, 전역 함수, 전역 객체 : 모든 곳에서 사용할 수 있는 것들<br />
+-__filename : 현재 실행 중인 코드의 파일 경로를 나타냅니다.<br />
+-__dirname : 현재 실행 중인 코드의 폴더 경로를 나타냅니다.<br />
 
-[예제 9-1] __filename과 __dirname
-console.log(__filename);
-console.log)__dirname);
+[예제 9-1] __filename과 __dirname<br />
+console.log(__filename);<br />
+console.log)__dirname);<br />
 
-<process 객체의 속성과 이벤트>
-1.Node.js는 process 전역 객체를 제공
-2.process 객체는 프로세스 정보를 제공하며, 제어할 수 있게 하는 객체
-<process객체의 메소드>
--exit : 프로그램 종료
--memoryUsage() : 메모리 사용 정보 객체를 리턴
--uptime() : 현재 프로그램이 실행 된 시간을 리턴
+<process 객체의 속성과 이벤트><br />
+1.Node.js는 process 전역 객체를 제공<br />
+2.process 객체는 프로세스 정보를 제공하며, 제어할 수 있게 하는 객체<br />
+<process객체의 메소드><br />
+-exit : 프로그램 종료<br />
+-memoryUsage() : 메모리 사용 정보 객체를 리턴<br />
+-uptime() : 현재 프로그램이 실행 된 시간을 리턴<br />
 
-<Node.js의 이벤트 연결 메소드>
--on(<이벤트 이름>,<이벤트 핸들러>) : 이벤트를 연결합니다.
+<Node.js의 이벤트 연결 메소드><br />
+-on(<이벤트 이름>,<이벤트 핸들러>) : 이벤트를 연결합니다.<br />
 
-<process 객체의 이벤트>
--exit : 프로세스가 종료될 때 발생합니다
--uncaughtException : 예외가 일어날 때 발생합니다.
+<process 객체의 이벤트><br />
+-exit : 프로세스가 종료될 때 발생합니다<br />
+-uncaughtException : 예외가 일어날 때 발생합니다.<br />
 
-<이벤트 매개 변수 : 이벤트 핸들러의 매개 변수로 전달되는 매개 변수>
-process.on('exit', (code) => {
-     console.log(`About to exit with code: ${code]`);
-});
+<이벤트 매개 변수 : 이벤트 핸들러의 매개 변수로 전달되는 매개 변수><br />
+process.on('exit', (code) => {<br />
+     console.log(`About to exit with code: ${code]`);<br />
+});<br />
 
 
-<url 모듈의 메소드>
--parse : URL 문자열을 UEL 객체로 변환해 리턴합니다.
--format(urlObj) : URL 객체를 URL 문자열로 변환해 리턴.
--resolve(from, to) : 매개변수를 조합하여 완전한 URL 문자열을 생성해 리턴.
+<url 모듈의 메소드><br />
+-parse : URL 문자열을 UEL 객체로 변환해 리턴합니다.<br />
+-format(urlObj) : URL 객체를 URL 문자열로 변환해 리턴.<br />
+-resolve(from, to) : 매개변수를 조합하여 완전한 URL 문자열을 생성해 리턴.<br />
 
-<File System 모듈>
-1.동기와 비동기의 실행 결과는 같지만 내부 실행 구조는 다름
-2.동기적으로 파일을 읽어 들일 때 코드 순서
-//모듈을 추출합니다
-const fs = require('fs');
+<File System 모듈><br />
+1.동기와 비동기의 실행 결과는 같지만 내부 실행 구조는 다름<br />
+2.동기적으로 파일을 읽어 들일 때 코드 순서<br />
+//모듈을 추출합니다<br />
+const fs = require('fs');<br />
 
-//파일을 읽어들이고 출력합니다.
-const file = fs.readFileSync('textfile.txt');
-console.log(file);
-console.log(file.toStrinf());
-//현재 단계에서 코드를 종료 합니다.
+//파일을 읽어들이고 출력합니다.<br />
+const file = fs.readFileSync('textfile.txt');<br />
+console.log(file);<br />
+console.log(file.toStrinf());<br />
+//현재 단계에서 코드를 종료 합니다.<br />
 
--문제를 해결을 위해 쓰레드 기능을 사용해야함
--Node.js에는 쓰레드의 기본 이념이 들어있음]
+-문제를 해결을 위해 쓰레드 기능을 사용해야함<br />
+-Node.js에는 쓰레드의 기본 이념이 들어있음<br />
 
-<비동기 처리의 장점>
-1.웹서버를 C++ 프로그래밍 언어로 만들면 무척 빠르지만, 개발과 유지보수는 어려움
-2.손쉽게 비동기 처리를 구현하여 빠른 처리가 가능
+<비동기 처리의 장점><br />
+1.웹서버를 C++ 프로그래밍 언어로 만들면 무척 빠르지만, 개발과 유지보수는 어려움<br />
+2.손쉽게 비동기 처리를 구현하여 빠른 처리가 가능<br />
 
-<cheerio 모듈>
-1.request 모듈로 가져온 웹 페이지는 단순한 HTML 문자열임
-여기에서 원하는 정보를 추출해야 단순한 ‘데이터’가 ‘정보’가 됨 -> 파싱
-2.cheerio 모듈 : 가져온 웹 페이지의 특정 위치에서 손쉽게 데이터를 추출
-3.cheerio 모듈 설치
+<cheerio 모듈><br />
+1.request 모듈로 가져온 웹 페이지는 단순한 HTML 문자열임<br />
+여기에서 원하는 정보를 추출해야 단순한 ‘데이터’가 ‘정보’가 됨 -> 파싱<br />
+2.cheerio 모듈 : 가져온 웹 페이지의 특정 위치에서 손쉽게 데이터를 추출<br />
+3.cheerio 모듈 설치<br />
 
 ## [5월 11일]
 ><h4>오늘 배운 내용 요약</h4> <br />
