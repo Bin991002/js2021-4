@@ -1,4 +1,67 @@
 # 이혜빈[201840129]
+## [6월 1일]
+><h4>오늘 배운 내용 요약</h4> <br />
+
+<h2><let 키워드와 const 키워드></h2><br />
+(최신버전 자바스크립트 코드)       (인터넷 익스프로어에서 사용해야 하는 코드)<br />
+let variable = 273;                        var variableA = 273;<br />
+const constant ="Hello World";      var variable ="Hello World";<br />
+
+<h2><템플릿 문자열></h2><br />
+(최신버전 자바스크립트 코드)                         (인터넷 익스프로어에서 사용해야 하는 코드)<br />
+let variable = 273;                                         var variableA = 273;<br />
+console.log(`변수의 값은 $(variable)입니다.`);     console.log(`변수의 값은  + variable + 입니다.`);   <br />
+
+<h2><화살표 함수></h2><br />
+const functionLitral = () => {                const functionLitral = funcion<br />
+
+};                                                       };<br />
+
+
+  <h2><브라우저 객체 모델></h2><br />
+-웹브라우저와 관련된 객체<br />
+-(location 객체, navigator 객체, screen 객체, history객체, documnt 객체)<br />
+  
+    <h2><Window 객체></h2><br />
+-Window 객체 : 웹페이지 자체를 나타냄<br />
+1.새로운 화면을 열거나 웹페이지를 변경하는...<br />
+
+
+      <h2><screen 객체></h2> <br />
+-웹브라우저에서 공통으로 사용할 수 있는 객체 <br />
+
+<h2><location객체와 history 객체> </h2> <br />
+-웹브라우저에서 공통으로 사용할 수 있는 객체 <br />
+-history 객체의 메소드 : forward(), back() <br />
+
+  <h2><navigator 객체></h2> <br />
+-웹 페이지를 실행하는 웹 브라우저 정보가 들어있음. <br />
+-사용자의 웹브라우저, 운영체제를 구분할 수 있음 <br />
+
+    <h2><jQuery 객체></h2> <br />
+-jQuery 라이브러리는 $ 함수 활용. <br />
+-$ 함수의 매개변수에는 문서객체, CSS형식, HTML형식의 문자열 삽입 <br />
+ $(<매개변수>).메소드(<매개변수>,<매개변수>) <br />
+
+//일반 문서 객체로 JQury 객체를 생성합니다. <br />
+$(document) <br />
+
+//CSS선택자로 JQury 객체를 생성합니다. <br />
+$(`h1`) <br />
+
+//HTML 문자열로 JQury 객체를 생성합니다. <br />
+$(`<h1></h1`) <br />
+
+-$(document).ready() : 문서 객체의 생성 와료 시점을 잡는 이벤트 연결. <br />
+
+      <h2><이벤트></h2> <br />
+-이벤트 직접 연결 <br />
+ 1.특정태그에 이벤트를 연결하고, 특정 태그를 눌렀을 때 이벤트가 발생. <br />
+ 2.jQuery를 직접 사용할 때 On사용. <br />
+-이벤트 간접 연결 : 부모에게 이벤트를 위임해서 부모가 이벤트를 처리하게 하는것. <br />
+ 1.예) 바디 태그 내부의 h1태그에서 클릭 이벤트가 발생할 때 h1 태그를 생성해 추가. <br />
+ 
+
 ## [5월 25일]
 ><h4>오늘 배운 내용 요약</h4> <br />
 <요청과 응답><br />
