@@ -22,6 +22,7 @@ const functionLitral = () => {                const functionLitral = funcion<br 
 -웹브라우저와 관련된 객체<br />
 -(location 객체, navigator 객체, screen 객체, history객체, documnt 객체)<br />
   
+  </br>
   <b><Window 객체></b><br />
 -Window 객체 : 웹페이지 자체를 나타냄<br />
 1.새로운 화면을 열거나 웹페이지를 변경하는...<br />
@@ -29,15 +30,15 @@ const functionLitral = () => {                const functionLitral = funcion<br 
 <screen 객체> <br />
 -웹브라우저에서 공통으로 사용할 수 있는 객체<br />
 
-<location객체와 history 객체> <br />
+  <b><location객체와 history 객체></b> <br />
 -웹브라우저에서 공통으로 사용할 수 있는 객체 <br />
 -history 객체의 메소드 : forward(), back() <br />
 
-<navigator 객체> <br />
+    <b><navigator 객체></b> <br />
 -웹 페이지를 실행하는 웹 브라우저 정보가 들어있음. <br />
 -사용자의 웹브라우저, 운영체제를 구분할 수 있음 <br />
 
-<jQuery 객체><br/>
+      <b><jQuery 객체></b><br/>
 -jQuery 라이브러리는 $ 함수 활용. <br />
 -$ 함수의 매개변수에는 문서객체, CSS형식, HTML형식의 문자열 삽입 <br />
  $(<매개변수>).메소드(<매개변수>,<매개변수>) <br />
