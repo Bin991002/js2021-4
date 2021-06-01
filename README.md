@@ -18,7 +18,7 @@ const functionLitral = () => {                const functionLitral = funcion<br 
 };                                                       };<br />
 
 
-<h2><브라우저 객체 모델></h2><br />
+<h2> <브라우저 객체 모델> </h2><br />
 -웹브라우저와 관련된 객체<br />
 -(location 객체, navigator 객체, screen 객체, history객체, documnt 객체)<br />
   
