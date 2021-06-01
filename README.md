@@ -37,7 +37,7 @@ const functionLitral = () => {                const functionLitral = funcion<br 
 -웹 페이지를 실행하는 웹 브라우저 정보가 들어있음. <br />
 -사용자의 웹브라우저, 운영체제를 구분할 수 있음 <br />
 
-<h3><jQuery 객체> </h3> <br />
+<h3><jQuery 객체> </h3> <br/>
 -jQuery 라이브러리는 $ 함수 활용. <br />
 -$ 함수의 매개변수에는 문서객체, CSS형식, HTML형식의 문자열 삽입 <br />
  $(<매개변수>).메소드(<매개변수>,<매개변수>) <br />
