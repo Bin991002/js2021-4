@@ -22,7 +22,7 @@ const functionLitral = () => {                const functionLitral = funcion<br 
 -웹브라우저와 관련된 객체<br />
 -(location 객체, navigator 객체, screen 객체, history객체, documnt 객체)<br />
   
-<h2><Window 객체></h2><br />
+<h2>  <Window 객체>  </h2>  <br />
 -Window 객체 : 웹페이지 자체를 나타냄<br />
 1.새로운 화면을 열거나 웹페이지를 변경하는...<br />
 
