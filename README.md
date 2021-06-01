@@ -18,27 +18,27 @@ const functionLitral = () => {                const functionLitral = funcion<br 
 };                                                       };<br />
 
 
-  <h2><브라우저 객체 모델></h2><br />
+<h2><브라우저 객체 모델></h2><br />
 -웹브라우저와 관련된 객체<br />
 -(location 객체, navigator 객체, screen 객체, history객체, documnt 객체)<br />
   
-    <h2><Window 객체></h2><br />
+<h2><Window 객체></h2><br />
 -Window 객체 : 웹페이지 자체를 나타냄<br />
 1.새로운 화면을 열거나 웹페이지를 변경하는...<br />
 
 
-      <h2><screen 객체></h2> <br />
+<h2><screen 객체></h2> <br />
 -웹브라우저에서 공통으로 사용할 수 있는 객체 <br />
 
 <h2><location객체와 history 객체> </h2> <br />
 -웹브라우저에서 공통으로 사용할 수 있는 객체 <br />
 -history 객체의 메소드 : forward(), back() <br />
 
-  <h2><navigator 객체></h2> <br />
+<h2><navigator 객체></h2> <br />
 -웹 페이지를 실행하는 웹 브라우저 정보가 들어있음. <br />
 -사용자의 웹브라우저, 운영체제를 구분할 수 있음 <br />
 
-    <h2><jQuery 객체></h2> <br />
+<h2><jQuery 객체></h2> <br />
 -jQuery 라이브러리는 $ 함수 활용. <br />
 -$ 함수의 매개변수에는 문서객체, CSS형식, HTML형식의 문자열 삽입 <br />
  $(<매개변수>).메소드(<매개변수>,<매개변수>) <br />
@@ -54,7 +54,7 @@ $(`<h1></h1`) <br />
 
 -$(document).ready() : 문서 객체의 생성 와료 시점을 잡는 이벤트 연결. <br />
 
-      <h2><이벤트></h2> <br />
+<h2><이벤트></h2> <br />
 -이벤트 직접 연결 <br />
  1.특정태그에 이벤트를 연결하고, 특정 태그를 눌렀을 때 이벤트가 발생. <br />
  2.jQuery를 직접 사용할 때 On사용. <br />
