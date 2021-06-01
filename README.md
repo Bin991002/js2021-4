@@ -30,7 +30,7 @@ const functionLitral = () => {                const functionLitral = funcion<br 
 <h2><screen 객체></h2> <br />
 -웹브라우저에서 공통으로 사용할 수 있는 객체 <br />
 
-<h2><location객체와 history 객체> </h2> <br />
+<h2><location객체와 history 객체></h2> <br />
 -웹브라우저에서 공통으로 사용할 수 있는 객체 <br />
 -history 객체의 메소드 : forward(), back() <br />
 
